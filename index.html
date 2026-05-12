@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title> Your Wish Cleaning Company</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+<a href="index.html"><img src="image/logo.jpg"></a>
+<div class="nav-links" id="nav-Links">
+<<i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="home-cleaning.html">Home Cleaning</a></li>
+<li><a href="">Commercial Cleaning</a></li>
+<li><a href="">Office Cleaning</a></li>
+<li><a href="">Our Facilities</a></li>
+<li><a href="">Testimonials</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+<h1> Excellent Cleaning Services </h1><br>
+<p> Our company offer professional residential and commercial cleaning, including <br>regular, deep, and end-of-lease services.</p><br>
+<a href=""class="your-wish"> Visit Us To Know More</a>
+</div>
+</section>
+<!-----Services---->
+<section class="Services">
+<h1>Services We Offer</h1>
+<p>Cleaning services are broadly categorized into residential (homes) and commercial (businesses/offices).</p>
+<div class="row">
+<div class="Services-col">
+<h3>Regular House Cleaning</h3>
+<p>Regular house cleaning is a routine, maintenance service designed to keep a home tidy and hygienic, typically performed weekly or fortnightly. It focuses on high-traffic areas, including vacuuming, mopping, dusting, surface wiping, and bathroom/kitchen sanitization. </p>
+</div>
+<div class="Services-col">
+<h3>Commercial Cleaning</h3>
+<p>Commercial cleaning involves specialized, high-traffic maintenance for business environments, including offices, medical facilities, industrial sites, and retail spaces. Key examples include routine office janitorial work, deep cleaning, carpet and floor care, high-level window cleaning, and specialized sanitation for childcare or medical facilities </p>
+</div>
+<div class="Services-col">
+<h3>Office Cleaning</h3>
+<p>Professional office cleaning services ensure a hygienic, productive workplace through regular, scheduled cleaning of workspaces, kitchens, and restrooms. Services generally include vacuuming, mopping, dusting, trash removal, and disinfecting high-touch areas. Costs vary by location and sizes. </p>
+</div>
+</div>
+<!------Call to Action------>
+<section class="Contact">
+<h1>Book Our Team</h1>
+<p> BOOK OUR SPECIALIST SERVICES TODAY AND ENJOY THE BEST</p>
+</h1>
+<a href=""> Contact Us</a>
+</section>
+<!-----Footer--->
+<section class="footer">
+<h4> About Us</h4>
+<p>Talk to our team today and find out more about how we can help you. We will be happy to discuss your requirements and devise the ideal cleaning plan to suit your business and commercial premises</p>
+<div class="icons">
+<i><a href="Youtube">Youtube</a></li><br>
+<i><a href="facebook">facebook</a></li><br>
+<i><a href="instragram">instragram</a></li>
+</div>
+</section>
+</section>
+<!-----Javascript for Toggle Menu---->
+<script>
+var navLinks=document.getElementById("nav-Links");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+</script>
+</body>
+</html>
